@@ -1,0 +1,28 @@
+Cada pasta desse repositório contém um exercicio que foi pensado para que, utilizando o arquivo criado app.js, se desenvolva a lógica necessária para resolver os problemas
+apresentados, utilizando da página HTML para coleta e apresentação das informações de entrada e saida.
+
+
+• Para fins de consulta
+
+    Valores Booleanos:
+
+        true (1)
+        false (0)
+
+    Operadores Lógicos:
+        AND --------- &&
+        OR  --------- ||
+        NOT --------- !
+
+    Operadores Relacionais:
+        < ----------- Menor que
+        > ----------- Maior que
+        <= ----------- Menor ou igual á
+        >= ----------- Maior ou igual á
+        == ----------- igual á
+        != ----------- diferente de
+        === ----------- valor ou tipo iguais (não precisa se preocupar agora)
+        !== ----------- valor ou tipo diferentes (não precisa se preocupar agora)
+
+    Operador de atribuição:
+        = ------------- Atribui um valor
