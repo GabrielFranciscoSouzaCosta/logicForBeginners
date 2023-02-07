@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 16</title>
     <!-- 
-        Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2 e 1. A seguir mostre o valor lido e a relação de notas necessárias.
+        Nesse exercício, você deverá controlar um mini caixa de super mercado.
+        No código, deverá ser definida uma variável constante que receberá um objeto Javascript, contendo diversos produtos, conforme exemplo:
+        [
+            {
+                "id": ID DO PRODUTO,
+                "nome": NOME DO PRODUTO
+                "valor": VALOR DO PRODUTO
+            },...
+        ]
 
-        Entrada
-            O arquivo de entrada contém um valor inteiro N (0 < N < 1000000).
-
-        Saída
-            Imprima o valor lido e, em seguida, a quantidade mínima de notas de cada tipo necessárias, conforme o exemplo fornecido. Não esqueça de imprimir o fim de linha após cada linha, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
+        Na tela, deverá ser exibido um botão com o valor: Iniciar compra.
+        Ao clicar, deverá ser apresentado um prompt perguntando qual é o código do produto a ser comprado, e a quantidade.
+        Caso seja informado um valor de código inválido, exibir um alert informando 'código inválido', e exibir o prompt novamente.
+        Caso o valor informado para quantidade do produto seja igual ou menor do que zero, também deverá ser apresentada mensagem de valor inválido
+        Após coletar as informações, verificar se o usuário quer adicionar mais um produto (comando confirm), caso sim, deve-se coletar novamente as informações até que o usuário responda que não quer mais.
+        Após coletar todas as informações e o usuário clicar em 'cancelar' no confirm, deverá ser apresentado em um alert o valor total da compra. 
     -->
 </head>
 <body>

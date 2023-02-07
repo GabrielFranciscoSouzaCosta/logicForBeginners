@@ -5,11 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 10</title>
     <!--
-        Neste problema, deve-se ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1,
-        o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser pago.
+        Neste problema, vamos simular um pequeno caixa de super mercado. Onde teremos apenas 3 produtos inicialmente.
+        Os produtos estão representados abaixo utilizando JSON, pesquisar sobre o que é JSON, buscar vídeos no youtube.
 
-        Entrada
-            Duas linhas de dados. Em cada linha haverá 3 valores, respectivamente dois inteiros e um valor com 2 casas decimais.
+        [
+            {
+                "id": 1,
+                "Nome": "Pão",
+                "Valor": 5
+            },
+            {
+                "id": 2,
+                "Nome": "Margarina",
+                "Valor": 3
+            },
+            {
+                "id": 3,
+                "Nome": "Dúzia de Ovos",
+                "Valor": 8
+            }
+        ]
+        
+        Para manter um certo grau de simplicidade, vamos assumir que o usuário só poderá comprar 2 itens.
+
+        Ao abrir a tela, o usuário deverá se deparar com um comando prompt perguntando:
+            -> qual é o código do primeiro produto a ser comprado
+            -> qual é a quantidade desejada
+        
+        Após o preenchimento, deverá ser apresentado um segundo prompt perguntando:
+            -> qual é o código do segundo produto a ser comprado
+            -> qual é a quantidade desejada
+        
+        Após o usuário preencher as informações, assumindo as informações apresentadas no JSON acima, calcule e mostre o valor a ser pago.
 
         Saída
             A saída deverá ser uma mensagem conforme o exemplo fornecido abaixo, lembrando de deixar um espaço após os dois pontos e um espaço após o "R$".
